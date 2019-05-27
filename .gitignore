@@ -46,3 +46,6 @@ toeic-web-logic/target/toeic-web-logic-1.0-SNAPSHOT.jar
 ToeicOnline.iml
 toeic-core-utils/toeic-core-utils.iml
 toeic-core-persistence-data/toeic-core-persistence-data.iml
+.idea/dataSources/800f4b1a-9151-4ca5-b853-927b767b4532.xml
+.idea/dataSources.local.xml
+.idea/dataSources.xml

@@ -45,3 +45,4 @@ toeic-web-logic/target/maven-status/maven-compiler-plugin/testCompile/default-te
 toeic-web-logic/target/toeic-web-logic-1.0-SNAPSHOT.jar
 ToeicOnline.iml
 toeic-core-utils/toeic-core-utils.iml
+toeic-core-persistence-data/toeic-core-persistence-data.iml

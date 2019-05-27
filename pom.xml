@@ -17,6 +17,8 @@
         <module>toeic-core-service</module>
         <module>toeic-core-service-impl</module>
         <module>toeic-core-utils</module>
+        <module>toeic-core-persistence-data</module>
+        <module>toeic-core-common</module>
     </modules>
     <packaging>pom</packaging>
 

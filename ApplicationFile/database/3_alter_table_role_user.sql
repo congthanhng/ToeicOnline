@@ -1,5 +1,5 @@
 use toeiconline;
 
-alter table user add column roleid bigint;
+alter table userEntity add column roleid bigint;
 
-alter table user add constraint fk_user_role foreign key (roleid) references role(roleid);
+alter table userEntity add constraint fk_user_role foreign key (roleid) references roleEntity(roleid);

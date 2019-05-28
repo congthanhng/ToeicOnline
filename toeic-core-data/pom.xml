@@ -12,5 +12,11 @@
 
     <artifactId>toeic-core-data</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>vn.myclass</groupId>
+            <artifactId>toeic-core-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

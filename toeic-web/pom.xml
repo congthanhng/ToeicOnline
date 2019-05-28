@@ -15,7 +15,7 @@
     <dependencies>
         <dependency>
             <groupId>vn.myclass</groupId>
-            <artifactId>toeic-web-logic</artifactId>
+            <artifactId>toeic-core-persistence-data</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

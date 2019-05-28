@@ -19,14 +19,49 @@
         <module>toeic-core-utils</module>
         <module>toeic-core-persistence-data</module>
         <module>toeic-core-common</module>
+        <module>toeic-core-web</module>
+        <module>toeic-core-test</module>
     </modules>
     <packaging>pom</packaging>
 
     <properties>
-
+        <servlet.api.version>3.1.0</servlet.api.version>
+        <jsp.api.version>2.3.1</jsp.api.version>
+        <mysql.connector.version>8.0.16</mysql.connector.version>
+        <hibernate.version>4.3.6.Final</hibernate.version>
+        <testng.version>6.8.7</testng.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>${servlet.api.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>javax.servlet.jsp-api</artifactId>
+            <version>${jsp.api.version}</version>
+        </dependency>
+        <!-- MySQL -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.connector.version}</version>
+        </dependency>
+        <!-- Hibernate -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>${hibernate.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+            <scope>test</scope>
+        </dependency>
 
     </dependencies>
 

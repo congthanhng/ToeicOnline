@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: vn.myclass.core.test.RoleTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.321 sec <<< FAILURE!
+checkFindById(vn.myclass.core.test.RoleTest)  Time elapsed: 0.011 sec  <<< FAILURE!
+org.hibernate.ObjectNotFoundException: No row with the given identifier exists: [<null entity name>#NOT FOUND 1]
+	at vn.myclass.core.data.daoimpl.AbstractDao.findById(AbstractDao.java:88)
+	at vn.myclass.core.test.RoleTest.checkFindById(RoleTest.java:42)
+

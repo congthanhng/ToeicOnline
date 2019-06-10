@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [vn.myclass.core.test.RoleTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="vn.myclass.core.test.RoleTest">
+        <methods>
+          <include name="checkFindById"/>
+        </methods>
+      </class> <!-- vn.myclass.core.test.RoleTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [vn.myclass.core.test.RoleTest] -->

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="vn.myclass.core.test.RoleTest" duration-ms="3358" started-at="2019-06-10T09:54:05Z" finished-at="2019-06-10T09:54:09Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="3358" started-at="2019-06-10T09:54:05Z" finished-at="2019-06-10T09:54:09Z">
+      <class name="vn.myclass.core.test.RoleTest">
+        <test-method status="PASS" signature="checkDelete()[pri:0, instance:vn.myclass.core.test.RoleTest@96532d6]" name="checkDelete" duration-ms="3080" started-at="2019-06-10T16:54:05Z" finished-at="2019-06-10T16:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDelete -->
+        <test-method status="PASS" signature="checkFindAll()[pri:0, instance:vn.myclass.core.test.RoleTest@96532d6]" name="checkFindAll" duration-ms="199" started-at="2019-06-10T16:54:08Z" finished-at="2019-06-10T16:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFindAll -->
+        <test-method status="FAIL" signature="checkFindById()[pri:0, instance:vn.myclass.core.test.RoleTest@96532d6]" name="checkFindById" duration-ms="4" started-at="2019-06-10T16:54:08Z" finished-at="2019-06-10T16:54:08Z">
+          <exception class="org.hibernate.ObjectNotFoundException">
+            <message>
+              <![CDATA[No row with the given identifier exists: [<null entity name>#NOT FOUND 1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.hibernate.ObjectNotFoundException: No row with the given identifier exists: [<null entity name>#NOT FOUND 1]
+	at vn.myclass.core.data.daoimpl.AbstractDao.findById(AbstractDao.java:88)
+	at vn.myclass.core.test.RoleTest.checkFindById(RoleTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.hibernate.ObjectNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFindById -->
+        <test-method status="PASS" signature="checkFindByProperty()[pri:0, instance:vn.myclass.core.test.RoleTest@96532d6]" name="checkFindByProperty" duration-ms="17" started-at="2019-06-10T16:54:08Z" finished-at="2019-06-10T16:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFindByProperty -->
+        <test-method status="PASS" signature="checkSaveRole()[pri:0, instance:vn.myclass.core.test.RoleTest@96532d6]" name="checkSaveRole" duration-ms="23" started-at="2019-06-10T16:54:08Z" finished-at="2019-06-10T16:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSaveRole -->
+        <test-method status="PASS" signature="checkUpdateRole()[pri:0, instance:vn.myclass.core.test.RoleTest@96532d6]" name="checkUpdateRole" duration-ms="11" started-at="2019-06-10T16:54:08Z" finished-at="2019-06-10T16:54:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUpdateRole -->
+      </class> <!-- vn.myclass.core.test.RoleTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- vn.myclass.core.test.RoleTest -->
+</testng-results>

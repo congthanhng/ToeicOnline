@@ -15,7 +15,7 @@
         <module>toeic-core-dao</module>
         <module>toeic-core-dao-impl</module>
         <module>toeic-core-service</module>
-        <module>toeic-core-service-impl</module>
+        <module>toeic-core-serviceimpl</module>
         <module>toeic-core-utils</module>
         <module>toeic-core-persistence-data</module>
         <module>toeic-core-common</module>

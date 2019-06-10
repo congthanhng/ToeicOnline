@@ -10,5 +10,9 @@
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="show_sql">true</property>
+        <mapping class="vn.myclass.core.persistence.entity.RoleEntity"/>
+        <mapping class="vn.myclass.core.persistence.entity.UserEntity"/>
+        <mapping class="vn.myclass.core.persistence.entity.ListenGuidelineEntity"/>
+        <mapping class="vn.myclass.core.persistence.entity.CommentEntity"/>
     </session-factory>
 </hibernate-configuration>

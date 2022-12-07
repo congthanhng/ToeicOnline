@@ -28,7 +28,7 @@
         <servlet.api.version>4.0.1</servlet.api.version>
         <jsp.api.version>2.3.3</jsp.api.version>
         <mysql.connector.version>8.0.31</mysql.connector.version>
-        <hibernate.version>6.1.5.Final</hibernate.version>
+        <hibernate.version>6.1.6.Final</hibernate.version>
         <testng.version>7.6.1</testng.version>
     </properties>
 

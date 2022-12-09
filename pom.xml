@@ -29,7 +29,7 @@
         <jsp.api.version>2.3.3</jsp.api.version>
         <mysql.connector.version>8.0.31</mysql.connector.version>
         <hibernate.version>6.1.6.Final</hibernate.version>
-        <testng.version>7.6.1</testng.version>
+        <testng.version>7.7.0</testng.version>
     </properties>
 
     <dependencies>
